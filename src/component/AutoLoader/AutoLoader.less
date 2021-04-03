@@ -1,0 +1,27 @@
+.auto-loader {
+    height: calc(100% - 30px);
+    overflow-y: scroll;
+    padding: 15px;
+
+    &::-webkit-scrollbar {
+        width: 12px;
+    }
+
+    &::-webkit-scrollbar-track {
+        border-radius: 10px;
+        background: #DDDDDD;
+    }
+    
+    &::-webkit-scrollbar-thumb {
+        background: #666666;
+        border-radius: 10px;
+        border-top: 3px solid #DDDDDD;
+        border-bottom: 3px solid #DDDDDD;
+        border-left: 2px solid #DDDDDD;
+        border-right: 2px solid #DDDDDD;
+    }
+    
+    &::-webkit-scrollbar-thumb:hover {
+        background: #888888;
+    }
+}
