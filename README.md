@@ -34,7 +34,7 @@ root DOM渲染元件的進入點，包住SideDrawer及Route，Route中控制頁�
 
 
 > code snippet
-```jsx=
+```jsx
 <div className="App">
     <div className="app-content">
         <SideDrawer/>
@@ -52,7 +52,7 @@ root DOM渲染元件的進入點，包住SideDrawer及Route，Route中控制頁�
 從props接收要取得資料的API URL，透過React的lifecycle method在元件載入時、API URL被更新時、scroll bar滾動到底時呼叫API抓取新的資料
 
 > code snippet
-```jsx=
+```jsx
 class AutoLoader extends React.Component{
     constructor(props){
         this.state={
